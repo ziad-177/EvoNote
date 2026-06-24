@@ -1,0 +1,18 @@
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5002:5002" 
+    volumes:
+      - ./data:/APP/data
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - JWT_SECRET_KEY=${JWT_SECRET_KEY}
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "80:80" 
+    depends_on:
+      - backend 

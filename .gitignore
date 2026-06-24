@@ -1,0 +1,14 @@
+# ملفات البيئة والمفاتيح السرية
+.env
+
+# قواعد البيانات
+data/
+evo_note.db
+
+# ملفات النود والواجهة
+frontend/node_modules/
+frontend/dist/
+
+# ملفات البايثون المؤقتة
+__pycache__/
+*.pyc
