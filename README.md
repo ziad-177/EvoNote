@@ -1,5 +1,5 @@
 
-# EvoNote 🧠📝
+# EvoNote 
 
 EvoNote is an AI-powered smart note-taking application designed to help users summarize, refine, and organize their ideas effortlessly.
 
